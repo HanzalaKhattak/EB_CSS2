@@ -46,11 +46,13 @@ body{
         border: 40px solid yellow;
         animation: movement 6s infinite alternate-reverse   ease-in-out;
         animation: movement ;
+        border-radius: 50%;
     }
 
     .img{
         width: 300px;
         height: 300px;
+        border-radius: 50%;
     }
 
     @keyframes movement {
