@@ -42,15 +42,24 @@ body{
     .box{
         width: 300px;
         height: 300px;
-        
         /* background-color: blue; */
         border: 40px solid yellow;
-        animation: movement 3s infinite alternate ease-in-out;
+        animation: movement 6s infinite alternate-reverse   ease-in-out;
+        animation: movement ;
+    }
+
+    .img{
+        width: 300px;
+        height: 300px;
     }
 
     @keyframes movement {
         0%{transform: translateX(-200px);}
-        100%{transform: translateX(200px);}
+        25%{transform: translateX(200px);}
+        50%{transform: translateX(200px)translateY(200px);}
+        75%{transform: translateY(200px)translateX(-200px);}
+        100%{transform: translateX(-200px)translateY(-200px);}
+        
     }
 
     
