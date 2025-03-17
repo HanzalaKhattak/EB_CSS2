@@ -1,0 +1,25 @@
+#btn{
+    color: browm;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 15px;
+}
+
+/* #btn:hover{
+    color: red;
+    border: 1px solid blue;
+    border-radius: 15px;
+    background-color: brown;
+    transition: background-color 3s;
+} */
+
+
+/* #btn:active{
+    background-color: brown;
+    transition: background-color 3s;
+    } */
+
+    /* #btn:focus{
+        background-color: brown;
+        transition: background-color 0.5s;
+    } */
