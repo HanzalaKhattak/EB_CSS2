@@ -2,16 +2,20 @@
     color: browm;
     background-color: aquamarine;
     border: none;
-    border-radius: 15px;
+    border-radius: 5px;
+    padding: 10px 15px;
 }
 
-/* #btn:hover{
-    color: red;
+#btn:hover{
+    /* color: red;
     border: 1px solid blue;
     border-radius: 15px;
     background-color: brown;
-    transition: background-color 3s;
-} */
+    transition: background-color 3s; */
+    animation: fadeIn;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
 
 
 /* #btn:active{
@@ -23,3 +27,8 @@
         background-color: brown;
         transition: background-color 0.5s;
     } */
+
+    @keyframes fadeIn {
+        from{opacity : 0;}
+        to {opacity: 1;}
+    }
